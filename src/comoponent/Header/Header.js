@@ -8,7 +8,7 @@ const Header = () => {
             <div>
                 <h2>My Daily Activity</h2>
             </div>
-        </nav>   
+        </nav> 
     );
 };
 

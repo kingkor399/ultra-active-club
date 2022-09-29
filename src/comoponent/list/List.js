@@ -1,12 +1,13 @@
 import React from 'react';
+import { useState } from 'react';
 import logo from '../../images/logo.png'
 const List = (props) => {
     const {time} = props;
-
     let timeRequired = 0;
     for(const exercise of time){
         timeRequired = timeRequired + parseInt(exercise.Time);
     }
+
     return (
         <div>
             <img src={logo}></img>
@@ -21,6 +22,11 @@ const List = (props) => {
                     </div>
                     <div>
                         <h3>Add A Break</h3>
+                        <div>
+                            <button>10s</button>
+                            <button>20s</button>
+                            <button>30s</button>
+                        </div>
                         </div>
                         <div>
                             <h3>Exercise Details</h3>

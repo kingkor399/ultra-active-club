@@ -28,3 +28,9 @@
     padding: 15px;
 }
 
+@media screen and (max-width: 576px){
+    .select-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

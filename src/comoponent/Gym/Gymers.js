@@ -12,7 +12,6 @@ const Gymers = () => {
         .then(res => res.json())
         .then(data => setExercises(data))
     },[])
-
     const handleAddTolist = (exercise) =>{
         const newTime = [...time,exercise]
         setTime(newTime)
