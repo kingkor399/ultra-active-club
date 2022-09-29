@@ -1,6 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
 import logo from '../../images/logo.png'
+import './List.css'
 const List = (props) => {
     const {time} = props;
     let timeRequired = 0;
@@ -22,10 +22,12 @@ const List = (props) => {
                     </div>
                     <div>
                         <h3>Add A Break</h3>
-                        <div>
+                        <div className='time-btn'>
                             <button>10s</button>
                             <button>20s</button>
                             <button>30s</button>
+                            <button>40s</button>
+                            <button>50s</button>
                         </div>
                         </div>
                         <div>
