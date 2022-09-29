@@ -6,12 +6,11 @@ const Exercise = (props) => {
         <div className='exercise'>
             <img src={img}></img>
             <div>
-            <p className='name-text'>Name: {name}</p>
+            <h4 className='name-text'>{name}</h4>
             <p>Times a week I do exercise in the evening, so I can stay strong and ... daily routine is a little boring – 
                 but on weekends and holidays I love to fly...
             </p>
-            <p>Age: {age}</p>
-            <p>Time required: {Time}</p>
+            <h5>Time required: {Time}</h5>
             </div>
             <button className='btn-cart'>
                 <h3>Add To List</h3>

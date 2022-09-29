@@ -6,7 +6,7 @@ const Header = () => {
         <nav className="header">
             <img src={logo}></img>
             <div>
-                <h2>Fab & Fit & Fun.</h2>
+                <h2>My Daily Activity</h2>
             </div>
         </nav>   
     );
