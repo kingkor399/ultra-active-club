@@ -1,0 +1,14 @@
+.body{
+    background-color: aliceblue;
+}
+.header{
+    display: flex;
+    align-items: center;
+    color:cyan;
+    padding-left: 144px;
+    box-shadow: 5px 5px whitesmoke;
+}
+
+.header img{
+    width: 80px;
+}
