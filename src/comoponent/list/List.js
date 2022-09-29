@@ -16,7 +16,7 @@ const List = (props) => {
                 <h5>Narshingdi Bangladesh</h5>
                 </div>
                 <div className='my-information'>
-                    <h5>Weight: 60kg</h5>
+                    <h5>Weight: 55kg</h5>
                     <h5>Height: 4.5</h5>
                     <h5>Age: 18</h5>
                     </div>

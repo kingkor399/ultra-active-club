@@ -1,4 +1,8 @@
 .question-text{
     background-color: beige;
-    
+    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 10px;
 }
