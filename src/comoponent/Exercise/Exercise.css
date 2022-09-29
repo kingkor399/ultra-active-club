@@ -1,0 +1,22 @@
+.name-text{
+    font-family: lato;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 21px;
+    line-height: 25px;
+}
+.exercise{
+    width: 300px;
+    height: 510px;
+    margin-top: 20px;
+    margin-left: 144px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding: 10px;
+}
+.exercise img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    
+}

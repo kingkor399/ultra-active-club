@@ -8,7 +8,7 @@ const Header = () => {
             <div>
                 <h2>Fab & Fit & Fun.</h2>
             </div>
-        </nav>
+        </nav>   
     );
 };
 
