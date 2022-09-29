@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exercise.css'
 const Exercise = (props) => {
-    const {name,age,img,Time} = props.exercise;
+    const {name,img,Time} = props.exercise;
     return (
         <div className='exercise'>
             <img src={img}></img>
@@ -12,7 +12,7 @@ const Exercise = (props) => {
             </p>
             <h5>Time required: {Time}m</h5>
             </div>
-            <button className='btn-cart'>
+            <button onClick={() => props.handleAddTolist(props.exercise)} className='btn-cart'>
                 <h3>Add To List</h3>
             </button>
         </div>
