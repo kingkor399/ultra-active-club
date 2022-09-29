@@ -6,4 +6,25 @@
 .select-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    background-color: aliceblue;
 }
+
+.my-information{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.Exercise-time{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.Break-time{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px;
+}
+
